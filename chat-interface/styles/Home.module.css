@@ -1,0 +1,14 @@
+.header {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 4rem 15rem auto auto;
+    grid-template-rows: 3rem;
+    padding: 1.5rem 4rem;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+}
