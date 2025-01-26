@@ -11,6 +11,7 @@ Este repositório contém o projeto desenvolvido como parte do processo seletivo
 2. **Histórico de Conversas**:
    - Armazenamento local do histórico, garantindo persistência após o refresh da página.
    - Opção de renomear as conversas para facilitar a identificação. (Três pontos -> "Renomear Conversa")
+   - Filtro para busca das conversas com base no Nome
 
 3. **Gestão de Conversas**:
    - Exclusão de conversas existentes. (Três pontos -> "Excluir Conversa")
