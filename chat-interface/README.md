@@ -32,7 +32,7 @@ Ter instalado:
 1. **Clone o repositório**:
    ```bash
    git clone https://github.com/matheusouzag/chat-interface.git
-   cd chat-interface
+   cd chat-interface/chat-interface
 
 2. **Instale as dependências:**:
    ```bash
