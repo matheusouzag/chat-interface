@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Interface de Chat - Teste Técnico para Estágio de Desenvolvimento Front-End
 
-## Getting Started
+Este repositório contém o projeto desenvolvido como parte do processo seletivo para o programa de estágio na **Tech4humans**. O desafio proposto consiste na criação de uma interface de chat interativa, utilizando tecnologias modernas e boas práticas de desenvolvimento.
 
-First, run the development server:
+## 🚀 Funcionalidades Implementadas
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Interface de Chat**:
+   - Permite iniciar e manter conversas entre o usuário e um assistente virtual. (Botão "+ Nova Conversa")
+   - Respostas do assistente são baseadas em números digitados de 1 a 6.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Histórico de Conversas**:
+   - Armazenamento local do histórico, garantindo persistência após o refresh da página.
+   - Opção de renomear as conversas para facilitar a identificação. (Três pontos -> "Renomear Conversa")
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. **Gestão de Conversas**:
+   - Exclusão de conversas existentes. (Três pontos -> "Excluir Conversa")
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. **Tecnologias Utilizadas**:
+   - **Next.js**: Framework React para desenvolvimento escalável.
+   - **TypeScript**: Para código mais seguro e gerenciável.
+   - **Tailwind CSS** e **shadcn/ui**: Para estilização moderna e componentes reutilizáveis.
+   - 
+---
 
-## Learn More
+## 🛠️ Instalação e Execução
 
-To learn more about Next.js, take a look at the following resources:
+### Pré-requisitos
+Ter instalado:
+- **Node.js**
+- **npm** ou **yarn**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Passos para Configuração
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/matheusouzag/chat-interface.git
+   cd chat-interface
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. **Instale as dependências:**:
+   ```bash
+   npm install
 
-## Deploy on Vercel
+3. **Inicie o localhost (Abra http://localhost:3000 no navegador)**:
+   ```bash
+   npm run dev
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🧱 Arquitetura do Projeto
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+O projeto foi estruturado garantindo escalabilidade e organização, seguindo a seguinte estrutura:
+
+1. **public/images**: Para organização de imagens
+2. **src/app**: Contendo a estrutura principal do chat
+3. **src/components**: Com os seguintes Componentes utilizados:
+   - Contacts: Para os Contatos
+   - Control: Para botões utilizados
+   - Header/Footer: Feitos utilizando a biblioteca shadcn/ui
+   - Message: Para os balões de texto
+4. **tailwind.config.ts**: Arquivo de configuração do tailwind, utilizado principalmente para criar novas cores e ter a troca dinamicamente
+
+
