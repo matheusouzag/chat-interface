@@ -19,7 +19,6 @@ Este repositório contém o projeto desenvolvido como parte do processo seletivo
    - **Next.js**: Framework React para desenvolvimento escalável.
    - **TypeScript**: Para código mais seguro e gerenciável.
    - **Tailwind CSS** e **shadcn/ui**: Para estilização moderna e componentes reutilizáveis.
-   - 
 ---
 
 ## 🛠️ Instalação e Execução
