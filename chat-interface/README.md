@@ -1,6 +1,4 @@
-# Interface de Chat - Teste Técnico para Estágio de Desenvolvimento Front-End
-
-Este repositório contém o projeto desenvolvido como parte do processo seletivo para o programa de estágio na **Tech4humans**. O desafio proposto consiste na criação de uma interface de chat interativa, utilizando tecnologias modernas e boas práticas de desenvolvimento.
+# Interface de Chat
 
 ## 🚀 Funcionalidades Implementadas
 
